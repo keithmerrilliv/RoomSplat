@@ -1,0 +1,392 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		194F13B1131AD8FE69379E15 /* SplatGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10A879969C5AF8ABE17B20A1 /* SplatGenerator.swift */; };
+		1AE5CF3E473DDA88E96F24A4 /* RoomPlan.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E6319D5B3D695DD617FC53D0 /* RoomPlan.framework */; };
+		243DDE0009131B785E616A62 /* Splat.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEDCB3E7D33953AE1D5C0E4E /* Splat.swift */; };
+		2930DCA75D9FB0455260AA26 /* MetalSplatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ECD9098FC010BE9479E6518 /* MetalSplatView.swift */; };
+		5DB02D42D3CD6A2E5AA469F5 /* RoomScannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA4B0E3B90C74A2796D333BA /* RoomScannerView.swift */; };
+		5E7345E4BE977E614952A555 /* SplatRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = E930CAE62C4D592B4AADB6B8 /* SplatRenderer.swift */; };
+		83EA0E7F9088A23902B9DD21 /* Shaders.metal in Sources */ = {isa = PBXBuildFile; fileRef = 636C149DEBD5F4E1523814A0 /* Shaders.metal */; };
+		8943BEA61281928256453755 /* RoomSplatApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CD8FE64FE5DEAD7ECE85F60 /* RoomSplatApp.swift */; };
+		A5091010723381B96111E94D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 525197A0460DF407342935D8 /* ContentView.swift */; };
+		B15F82C68F32AF8AF7F877CE /* ARKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2D079854D60AC6AAF1EF39B /* ARKit.framework */; };
+		DD3E382604D83D8A681CD31E /* MetalKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86F46A549DF6CE49357215C6 /* MetalKit.framework */; };
+		F652DAC6C95558AC10DF3153 /* Metal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 319CC272C022045C77897AFD /* Metal.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0ECD9098FC010BE9479E6518 /* MetalSplatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetalSplatView.swift; sourceTree = "<group>"; };
+		10A879969C5AF8ABE17B20A1 /* SplatGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplatGenerator.swift; sourceTree = "<group>"; };
+		319CC272C022045C77897AFD /* Metal.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Metal.framework; path = System/Library/Frameworks/Metal.framework; sourceTree = SDKROOT; };
+		4040EA111B2107A50683EA46 /* Bridging.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Bridging.h; sourceTree = "<group>"; };
+		43518463371D6070F2A683A9 /* RoomSplat.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = RoomSplat.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		525197A0460DF407342935D8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		636C149DEBD5F4E1523814A0 /* Shaders.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = Shaders.metal; sourceTree = "<group>"; };
+		7CD8FE64FE5DEAD7ECE85F60 /* RoomSplatApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomSplatApp.swift; sourceTree = "<group>"; };
+		86F46A549DF6CE49357215C6 /* MetalKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MetalKit.framework; path = System/Library/Frameworks/MetalKit.framework; sourceTree = SDKROOT; };
+		D3A37B1C149D328C0005F76D /* ShaderTypes.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ShaderTypes.h; sourceTree = "<group>"; };
+		DAC15FCE290B90C126A303F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		DEDCB3E7D33953AE1D5C0E4E /* Splat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Splat.swift; sourceTree = "<group>"; };
+		E6319D5B3D695DD617FC53D0 /* RoomPlan.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RoomPlan.framework; path = System/Library/Frameworks/RoomPlan.framework; sourceTree = SDKROOT; };
+		E930CAE62C4D592B4AADB6B8 /* SplatRenderer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplatRenderer.swift; sourceTree = "<group>"; };
+		EA4B0E3B90C74A2796D333BA /* RoomScannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomScannerView.swift; sourceTree = "<group>"; };
+		F2D079854D60AC6AAF1EF39B /* ARKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ARKit.framework; path = System/Library/Frameworks/ARKit.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ED88F9A6E2AE59A81B5BCE23 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B15F82C68F32AF8AF7F877CE /* ARKit.framework in Frameworks */,
+				1AE5CF3E473DDA88E96F24A4 /* RoomPlan.framework in Frameworks */,
+				F652DAC6C95558AC10DF3153 /* Metal.framework in Frameworks */,
+				DD3E382604D83D8A681CD31E /* MetalKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		055919B80FC7B9B705E82709 /* RoomSplat */ = {
+			isa = PBXGroup;
+			children = (
+				525197A0460DF407342935D8 /* ContentView.swift */,
+				7CD8FE64FE5DEAD7ECE85F60 /* RoomSplatApp.swift */,
+				23AC1DC0F611CAB0D21029E5 /* Rendering */,
+				B3B037015D0E3B3E56774640 /* Resources */,
+				754CD2F7DDD62DDBA4C6309C /* Scanning */,
+				B3AD3E1FAAFFD5CC7C5CD0B0 /* Splats */,
+			);
+			path = RoomSplat;
+			sourceTree = "<group>";
+		};
+		23AC1DC0F611CAB0D21029E5 /* Rendering */ = {
+			isa = PBXGroup;
+			children = (
+				4040EA111B2107A50683EA46 /* Bridging.h */,
+				0ECD9098FC010BE9479E6518 /* MetalSplatView.swift */,
+				636C149DEBD5F4E1523814A0 /* Shaders.metal */,
+				D3A37B1C149D328C0005F76D /* ShaderTypes.h */,
+				E930CAE62C4D592B4AADB6B8 /* SplatRenderer.swift */,
+			);
+			path = Rendering;
+			sourceTree = "<group>";
+		};
+		307EDD3FCF1A1EEE2143B2C4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				43518463371D6070F2A683A9 /* RoomSplat.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3CE46FF19F47A03F30F7B427 = {
+			isa = PBXGroup;
+			children = (
+				055919B80FC7B9B705E82709 /* RoomSplat */,
+				514FC41EFD71239F97CEC2C7 /* Frameworks */,
+				307EDD3FCF1A1EEE2143B2C4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		514FC41EFD71239F97CEC2C7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F2D079854D60AC6AAF1EF39B /* ARKit.framework */,
+				319CC272C022045C77897AFD /* Metal.framework */,
+				86F46A549DF6CE49357215C6 /* MetalKit.framework */,
+				E6319D5B3D695DD617FC53D0 /* RoomPlan.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		754CD2F7DDD62DDBA4C6309C /* Scanning */ = {
+			isa = PBXGroup;
+			children = (
+				EA4B0E3B90C74A2796D333BA /* RoomScannerView.swift */,
+			);
+			path = Scanning;
+			sourceTree = "<group>";
+		};
+		B3AD3E1FAAFFD5CC7C5CD0B0 /* Splats */ = {
+			isa = PBXGroup;
+			children = (
+				DEDCB3E7D33953AE1D5C0E4E /* Splat.swift */,
+				10A879969C5AF8ABE17B20A1 /* SplatGenerator.swift */,
+			);
+			path = Splats;
+			sourceTree = "<group>";
+		};
+		B3B037015D0E3B3E56774640 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				DAC15FCE290B90C126A303F3 /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DABC247186F836C0FB79E2CC /* RoomSplat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8473D8447EEB109A46AEF6DC /* Build configuration list for PBXNativeTarget "RoomSplat" */;
+			buildPhases = (
+				BF0817650A1615FAA3FBCB52 /* Sources */,
+				ED88F9A6E2AE59A81B5BCE23 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RoomSplat;
+			packageProductDependencies = (
+			);
+			productName = RoomSplat;
+			productReference = 43518463371D6070F2A683A9 /* RoomSplat.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B2CA4B19B6D7DEDBD6777540 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					DABC247186F836C0FB79E2CC = {
+						DevelopmentTeam = "";
+					};
+				};
+			};
+			buildConfigurationList = E067263546F0D5B68BAEAF18 /* Build configuration list for PBXProject "RoomSplat" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 3CE46FF19F47A03F30F7B427;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 307EDD3FCF1A1EEE2143B2C4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DABC247186F836C0FB79E2CC /* RoomSplat */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BF0817650A1615FAA3FBCB52 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5091010723381B96111E94D /* ContentView.swift in Sources */,
+				2930DCA75D9FB0455260AA26 /* MetalSplatView.swift in Sources */,
+				5DB02D42D3CD6A2E5AA469F5 /* RoomScannerView.swift in Sources */,
+				8943BEA61281928256453755 /* RoomSplatApp.swift in Sources */,
+				83EA0E7F9088A23902B9DD21 /* Shaders.metal in Sources */,
+				243DDE0009131B785E616A62 /* Splat.swift in Sources */,
+				194F13B1131AD8FE69379E15 /* SplatGenerator.swift in Sources */,
+				5E7345E4BE977E614952A555 /* SplatRenderer.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		23F4200B7EAFD1143BFFBD4E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = RoomSplat/Resources/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.RoomSplat;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4060A3271A5B8CDD3E3CF7F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OBJC_BRIDGING_HEADER = RoomSplat/Rendering/Bridging.h;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4DC55CA646609419E63E1307 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OBJC_BRIDGING_HEADER = RoomSplat/Rendering/Bridging.h;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F45065D3F5CC7C7C6F9FD524 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = RoomSplat/Resources/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.RoomSplat;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8473D8447EEB109A46AEF6DC /* Build configuration list for PBXNativeTarget "RoomSplat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F45065D3F5CC7C7C6F9FD524 /* Debug */,
+				23F4200B7EAFD1143BFFBD4E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		E067263546F0D5B68BAEAF18 /* Build configuration list for PBXProject "RoomSplat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4DC55CA646609419E63E1307 /* Debug */,
+				4060A3271A5B8CDD3E3CF7F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B2CA4B19B6D7DEDBD6777540 /* Project object */;
+}

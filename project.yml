@@ -1,0 +1,39 @@
+name: RoomSplat
+options:
+  bundleIdPrefix: com.example
+  deploymentTarget:
+    iOS: "26.0"
+  createIntermediateGroups: true
+settings:
+  base:
+    SWIFT_VERSION: "6.0"
+    DEVELOPMENT_TEAM: ""
+    TARGETED_DEVICE_FAMILY: "1,2"
+    IPHONEOS_DEPLOYMENT_TARGET: "26.0"
+    SWIFT_OBJC_BRIDGING_HEADER: "RoomSplat/Rendering/Bridging.h"
+targets:
+  RoomSplat:
+    type: application
+    platform: iOS
+    sources:
+      - path: RoomSplat
+    info:
+      path: RoomSplat/Resources/Info.plist
+      properties:
+        CFBundleDisplayName: RoomSplat
+        UILaunchScreen: {}
+        NSCameraUsageDescription: "RoomSplat needs the camera to scan your room with ARKit and RoomPlan."
+        UIRequiredDeviceCapabilities:
+          - arkit
+          - metal
+        UISupportedInterfaceOrientations:
+          - UIInterfaceOrientationPortrait
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.example.RoomSplat
+        ENABLE_PREVIEWS: YES
+    dependencies:
+      - sdk: ARKit.framework
+      - sdk: RoomPlan.framework
+      - sdk: Metal.framework
+      - sdk: MetalKit.framework
